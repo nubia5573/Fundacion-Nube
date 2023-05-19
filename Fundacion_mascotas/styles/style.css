@@ -1,0 +1,215 @@
+/*Tipografias referenciadas de google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.encabezado .div_1{
+    background-color: #CD8C52;
+    height: 20px;
+    width: 100%;
+}
+.encabezado .div_2{
+    width: 100%;
+    display: inline-flex;
+}
+.logo{
+    width: 40%;
+    
+}
+.logo img{
+    width: 220px;
+    height: 100%;
+    padding-left: 22%;
+    padding-top: 1%;
+}
+.menu{
+    
+    width: 60%;
+    height: 60px;
+    text-align: -webkit-center;
+    padding-top: 20px;
+    align-self: center;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: #5E3929;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0px 20px;
+    font-family:'Source Sans Pro', sans-serif;
+}
+.menu li .nosotros{
+
+    color: #96D665;
+
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.slider ul{
+    
+    display: flex;
+    padding: 0;
+    width: 400%;
+    z-index: 1;
+}
+
+.slider li{
+    width: 100%;
+    height: 450px;
+    list-style: none;
+    animation: slide 14s ease-in-out infinite alternate;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+
+    filter: brightness(75%);
+}
+
+@keyframes slide{
+    0% {
+        transform: translateX(0);
+      }
+    15% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(-100%);
+    }
+    55% {
+        transform: translateX(-200%);
+    }
+    70% {
+        transform: translateX(-200%);
+    }
+    85% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}
+.slider .content{
+    position: absolute;
+    z-index: 2;
+    top: 32%;
+    left: 8%;
+}
+
+.slider .content h1{
+    color: #fcf7d3;
+    font-size: 35px;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.slider .content p{
+    margin-top: 20px;
+    color: #D4ECC2;
+    font-size: 22px;
+    font-family:'Source Sans Pro', sans-serif;
+}
+.slider .content button{
+    margin-top: 9%;
+    color: #ffffff;
+    font-size: 19px;
+    font-family:'Source Sans Pro', sans-serif;
+}
+.slider .content .boton-dona{
+    margin-left: 30%;
+    background-color: transparent;
+    padding: 6px 20px;
+    border-radius: 40px;
+    border: 4px solid #5E3929; 
+    
+}
+.slider .content .boton-dona:hover{
+    background-color: #5E3929;
+    padding: 6px 20px;
+    border-radius: 40px;
+    border: 4px solid #5E3929; 
+    
+}
+.slider .content .boton-adopta{
+    margin-left: 10%;
+    background-color: transparent;
+    padding: 6px 20px;
+    border-radius: 40px;
+    background-color: #96D665;
+    border: 4px solid #96D665; 
+    
+}
+.slider .content .boton-adopta:hover{
+    background-color: #96D665;
+    border: 4px solid #D4ECC2; 
+    padding: 6px 20px;
+    border-radius: 40px;
+}
+.opciones h3 {
+
+    height: 1px; /* establece el alto de la línea en 1px */
+    width: 100%;
+    background-color: #5E3929; /* establece el color de fondo de la línea en negro */
+    text-align: center; /* centra la palabra en el medio de la línea */
+    margin: 70px 0; /* agrega un margen de 20px arriba y abajo para separar el contenido de la línea */
+  }
+  
+h3 span {
+    background-color: #ffffff;
+    color: #5E3929; /* establece el color de fondo de la palabra en blanco para que se vea por encima de la línea */
+    padding: 0 60px ; /* agrega un poco de relleno horizontal para separar la palabra de la línea */
+    line-height: 10px;
+    font-size: 19px;
+    font-family:'Source Sans Pro', sans-serif;
+    
+}
+ 
+.opciones-aportar{
+    
+    width: 100%;
+    height: 600hv;
+    text-align: -webkit-center;
+    padding-top: 20px;
+    align-self: center;
+    display: inline-flex;
+}
+.opciones-aportar .opcion{
+    width: 20%;
+    height: 30%;
+    margin-left: 10%;
+    color: #ffffff;
+}
+.opciones-aportar .opcion img{
+    width: 100%;
+    height: 230px;
+    
+} 
+.opciones-aportar .opcion .titulo-1, .titulo-3{
+    width: 100%;
+    height: 100%;
+    background-color: #96D665;
+    
+} 
+.opciones-aportar .opcion .titulo-2{
+    width: 100%;
+    height: 100%;
+    background-color: #5E3929;
+} 
