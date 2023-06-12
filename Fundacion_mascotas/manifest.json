@@ -1,7 +1,7 @@
 {
     "name": "Fundacion Nube",
     "short_name": "Nube",
-    "description": "Este es un realizada para el curso de FullStack intermedio, en la unidad de front y backend",
+    "description": "Este es un proyecto realizado para el curso de FullStack intermedio, en la unidad de front y backend",
     "background_color": "#FFFFFF",
     "theme-color": "#2D2C3C",
     "orientation": "portrait",
